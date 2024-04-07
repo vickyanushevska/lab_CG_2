@@ -1,0 +1,55 @@
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  height: 100vh; /* Use min-height for better responsiveness */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background-color: #f0f0f0; /* Light gray background */
+  margin: 0; /* Remove default body margin */
+  overflow: hidden;
+}
+
+#container {
+  max-width: 900px; /* Limit container width for readability */
+  height: 85%; /* Changed height to 70% */
+  display: flex;
+  flex-direction: column; /* Stack h1 and p vertically */
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center; /* Center content horizontally */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem; /* Using rem for responsiveness */
+  color: #333333; /* Dark gray text color */
+  margin: 0 0 20px 0; /* Add some bottom margin for spacing */
+}
+
+p {
+  font-size: 1.4rem; /* Using rem for responsiveness */
+  color: #666666; /* Medium gray text color */
+  margin: 0; /* Remove unnecessary margin */
+  line-height: 1.5; /* Add line-height for better spacing */
+}
+
+#text-container {
+  border-left: 4px solid #87ceeb; /* Lighter shade of blue for left border */
+  padding: 30px;
+  margin-left: 0px;
+  margin-top: 20px; /* Add some space above the quote */
+}
+
+#figure-container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px; /* Adjusted margin top */
+  margin-bottom: 0px;
+}
