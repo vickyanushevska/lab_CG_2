@@ -38,9 +38,15 @@ const geometry = new THREE.CylinderGeometry(
   numOfSides
 );
 
-// Creating materials for each side of the cube
-const material = new THREE.MeshNormalMaterial();
+// Creating materials for each side of the pyramid
+
+const material = [
+  new THREE.MeshBasicMaterial({ color: 0xb2a5d3 }), // sides - purple
+  new THREE.MeshBasicMaterial({ color: 0xc1dbea }), // top
+  new THREE.MeshBasicMaterial({ color: 0xc1dbea }), // bottom
+];
 const pyramid = new THREE.Mesh(geometry, material);
+// const material = new THREE.MeshNormalMaterial(); /// colors for all sides and bottom
 
 // Adding the pyramid to the scene
 scene.add(pyramid);
