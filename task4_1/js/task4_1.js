@@ -51,7 +51,7 @@ const pyramid = new THREE.Mesh(geometry, material);
 // Adding the pyramid to the scene
 scene.add(pyramid);
 
-const wireframeMaterial = new THREE.MeshBasicMaterial({ color: 0x27FF19, wireframe: true, opacity: 0.2, transparent: true });
+const wireframeMaterial = new THREE.MeshBasicMaterial({ color: 0xFFC900, wireframe: true, opacity: 0.2, transparent: true });
 const wireframe = new THREE.Mesh(geometry, wireframeMaterial);
 scene.add(wireframe);
 
